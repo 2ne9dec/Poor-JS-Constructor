@@ -1,0 +1,27 @@
+{
+  "name": "poor-js-constructor",
+  "version": "1.0.0",
+  "description": "javascript pure application",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html -p 4200 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2ne9dec/Poor-JS-Constructor.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Vadim Astapenko <o-maestpo@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2ne9dec/Poor-JS-Constructor/issues"
+  },
+  "homepage": "https://github.com/2ne9dec/Poor-JS-Constructor#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
